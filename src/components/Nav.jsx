@@ -1,3 +1,5 @@
+import Style from "./Nav.module.css";
+
 function Nav({ data, onChangeMode }) {
   const listItem = data.map((work) => (
     <li

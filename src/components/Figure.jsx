@@ -1,3 +1,5 @@
+import Style from "./Figure.module.css";
+
 function Figure({ data }) {
   const { title, url, desc } = data ?? { title: "", url: "", desc: "Data not found" };
 
