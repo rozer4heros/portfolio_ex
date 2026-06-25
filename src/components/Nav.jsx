@@ -7,7 +7,7 @@ function Nav({ data, onChangeMode }) {
         onChangeMode(work.id);
       }}
     >
-      <a href="">{work.title}</a>
+      <button type="button">{work.title}</button>
     </li>
   ));
 
