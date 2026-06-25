@@ -5,7 +5,7 @@ function Figure({ data }) {
 
   return (
     <figure>
-      <img alt={title} src={url} />
+      <img alt={title} src={url} className={Style.workImg} />
       <figcaption>{desc}</figcaption>
     </figure>
   );

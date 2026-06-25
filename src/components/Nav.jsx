@@ -4,18 +4,21 @@ function Nav({ data, onChangeMode }) {
   const listItem = data.map((work) => (
     <li
       key={work.id}
+      className={Style.workItem}
       onClick={(e) => {
         e.preventDefault();
         onChangeMode(work.id);
       }}
     >
-      <button type="button">{work.title}</button>
+      <button type="button" className={Style.workBtn}>
+        {work.title}
+      </button>
     </li>
   ));
 
   return (
     <nav>
-      <ul>{listItem}</ul>
+      <ul className={Style.workList}>{listItem}</ul>
     </nav>
   );
 }
