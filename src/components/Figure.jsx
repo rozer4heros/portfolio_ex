@@ -1,8 +1,10 @@
-function Figure() {
+function Figure({ data }) {
+  const { title, url, desc } = data ?? { title: "", url: "", desc: "Data not found" };
+
   return (
     <figure>
-      <img alt="img-1" src="images/img-1.jpg" />
-      <figcaption>Work 1 description</figcaption>
+      <img alt={title} src={url} />
+      <figcaption>{desc}</figcaption>
     </figure>
   );
 }

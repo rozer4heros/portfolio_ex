@@ -1,20 +1,19 @@
-function Nav() {
+function Nav({ data, onChangeMode }) {
+  const listItem = data.map((work) => (
+    <li
+      key={work.id}
+      onClick={(e) => {
+        e.preventDefault();
+        onChangeMode(work.id);
+      }}
+    >
+      <a href="">{work.title}</a>
+    </li>
+  ));
+
   return (
     <nav>
-      <ul>
-        <li>
-          <a href="">work 1</a>
-        </li>
-        <li>
-          <a href="">work 2</a>
-        </li>
-        <li>
-          <a href="">work 3</a>
-        </li>
-        <li>
-          <a href="">work 4</a>
-        </li>
-      </ul>
+      <ul>{listItem}</ul>
     </nav>
   );
 }
