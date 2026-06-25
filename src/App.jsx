@@ -8,10 +8,10 @@ import Next from "./assets/right.png";
 
 function App() {
   const works = [
-    { id: "a", title: "Work 1", url: "assets/img-1.jpg", desc: "Work 1 description" },
-    { id: "b", title: "Work 2", url: "assets/img-2.jpg", desc: "Work 2 description" },
-    { id: "c", title: "Work 3", url: "assets/img-3.jpg", desc: "Work 3 description" },
-    { id: "d", title: "Work 4", url: "assets/img-4.jpg", desc: "Work 4 description" },
+    { id: "a", title: "Work 1", url: "/img-1.jpg", desc: "Work 1 description" },
+    { id: "b", title: "Work 2", url: "/img-2.jpg", desc: "Work 2 description" },
+    { id: "c", title: "Work 3", url: "/img-3.jpg", desc: "Work 3 description" },
+    { id: "d", title: "Work 4", url: "/img-4.jpg", desc: "Work 4 description" },
     { id: "e", title: "Work 5", url: "/", desc: "Work 5 description" },
     { id: "f", title: "Work 6", url: "/", desc: "Work 6 description" },
     { id: "g", title: "Work 7", url: "/", desc: "Work 7 description" },
