@@ -44,7 +44,7 @@ function App() {
   return (
     <>
       <Header />
-      <Nav data={works} onChangeMode={(id) => setId(id)} />
+      <Nav id={id} data={works} onChangeMode={(id) => setId(id)} />
       <Figure data={works.find((w) => w.id === id)} />
       <button onClick={handlePrev}>
         <img src={Prev} alt="이전" />
