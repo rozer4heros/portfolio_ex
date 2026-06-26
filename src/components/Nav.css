@@ -1,11 +1,11 @@
-.workList {
+ul {
   display: flex;
   gap: 12px;
 }
-.workItem {
+li {
   list-style: none;
 }
-.workItem .workBtn {
+li button {
   cursor: pointer;
   color: #666;
   background: #fff;
@@ -13,7 +13,7 @@
   border: none;
   border-radius: 4px;
 }
-.workItem.active .workBtn {
+li.active button {
   color: #fff;
   background: #222;
 }
