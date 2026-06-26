@@ -1,4 +1,8 @@
-img {
-  width: 100%;
-  max-width: 1024px;
+figure {
+  height: 512px;
+}
+
+figure img {
+  width: auto;
+  max-height: 96%;
 }
