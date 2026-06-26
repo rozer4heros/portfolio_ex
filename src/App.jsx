@@ -4,8 +4,6 @@ import Header from "./components/Header.jsx";
 import Nav from "./components/Nav.jsx";
 import Figure from "./components/Figure.jsx";
 import Controls from "./components/Controls.jsx";
-// import Prev from "./assets/left.png";
-// import Next from "./assets/right.png";
 
 function App() {
   const works = [
@@ -19,7 +17,7 @@ function App() {
     { id: "h", title: "Work 8", url: "/images/img-eve.png", desc: "Work 8 description" },
     { id: "i", title: "Work 9", url: "/images/img-kanna-1.jpg", desc: "Work 9 description" },
     { id: "j", title: "Work 10", url: "/images/img-kanna-2.jpg", desc: "Work 10 description" },
-    { id: "k", title: "Work 11", url: "/images/img-cvwo.jpg", desc: "Work 11 description" },
+    { id: "k", title: "Work 11", url: "/images/img-cv-wokyu.jpg", desc: "Work 11 description" },
     { id: "l", title: "Work 12", url: "/images/img-music-girl-itou.jpg", desc: "Work 12 description" },
   ];
 
